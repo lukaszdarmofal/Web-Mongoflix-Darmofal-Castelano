@@ -14,12 +14,13 @@
 
 ## Struktura kolekcji `reviews` (tutaj będą opinie)
 
-|     POLE       |   TYP DANYCH   |           OPIS           |     PRZYKŁAD     |
-|:--------------:|:--------------:|:------------------------:|:----------------:|
-| _id            | int            | id opinii                | 1                |
-| movieName      | string         | nazwa filmu              | Hobbit           |
-| rating         | float          | ocena filmu (0-5)        | 3.2              |
-| reviewContent  | string         | zawartość opinii         | wspaniały film   |
+|     POLE      |   TYP DANYCH   |       OPIS        |    PRZYKŁAD    |
+|:-------------:|:--------------:|:-----------------:|:--------------:|
+|      _id      | int            |     id opinii     |       1        |
+|   movieName   | string         |    nazwa filmu    |     Hobbit     |
+|   userName    | string         | nazwa uzytkownika |   superUser2   |
+|    rating     | float          | ocena filmu (0-5) |      3.2       |
+| reviewContent | string         | zawartość opinii  | wspaniały film |
 
 
 #### !! Dla kolekcji `reviews` podczas wypełniania kolekcji sprawdamy czy nie ma takiego samego `userName` dla `movieName` !!

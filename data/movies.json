@@ -1,0 +1,64 @@
+[
+  {
+    "_id": 1,
+    "movieName": "fajny film",
+    "movieRelease": 2020,
+    "movieGenres": ["action","sci-fi"],
+    "movieActors": ["tom holland", "ryan gosling"],
+    "movieDirector": "lukasz"
+  },
+
+  {
+    "_id": 2,
+    "movieName": "fajny film 2",
+    "movieRelease": 2021,
+    "movieGenres": ["action","sci-fi"],
+    "movieActors": ["tom holland", "ryan gosling", "john cena", "keanu reeves"],
+    "movieDirector": "lukasz"
+  },
+
+  {
+    "_id": 3,
+    "movieName": "fajny film 3: timeender",
+    "movieRelease": 2023,
+    "movieGenres": ["action","sci-fi"],
+    "movieActors": ["tom holland", "ryan gosling", "john cena", "keanu reeves", "dwayne johnson"],
+    "movieDirector": "lukasz"
+  },
+
+  {
+    "_id": 4,
+    "movieName": "fajny film endgame pt. 1: Alpha",
+    "movieRelease": 2025,
+    "movieGenres": ["action","sci-fi"],
+    "movieActors": ["tom holland", "ryan gosling", "john cena", "keanu reeves", "dwayne johnson", "scarlett johansson"],
+    "movieDirector": "lukasz"
+  },
+
+  {
+    "_id": 5,
+    "movieName": "fajny film endgame pt. 2: Omega",
+    "movieRelease": 2026,
+    "movieGenres": ["action","sci-fi"],
+    "movieActors": ["tom holland", "ryan gosling", "john cena", "keanu reeves", "dwayne johnson", "scarlett johansson"],
+    "movieDirector": "lukasz"
+  },
+
+  {
+    "_id": 6,
+    "movieName": "super straszny film",
+    "movieRelease": 2015,
+    "movieGenres": ["horror"],
+    "movieActors": ["keanu reeves", "dwayne johnson", "scarlett johansson"],
+    "movieDirector": "osoba15"
+  },
+
+  {
+    "_id": 7,
+    "movieName": "wyspa epsteina: cala prawda",
+    "movieRelease": 2026,
+    "movieGenres": ["dokument", "na faktach"],
+    "movieActors": ["anonimowe ofiary"],
+    "movieDirector": "gal anonim"
+  }
+]

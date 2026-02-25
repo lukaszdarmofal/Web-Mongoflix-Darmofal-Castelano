@@ -1,0 +1,51 @@
+[
+  {
+    "_id": 1,
+    "movieName": "fajny film",
+    "userName": "cinephile_99",
+    "rating": 4,
+    "reviewContent": "Solidne kino akcji na początek serii. Holland i Gosling to duet, którego nie wiedziałem, że potrzebuję."
+  },
+  {
+    "_id": 2,
+    "movieName": "fajny film 2",
+    "userName": "actionFan",
+    "rating": 5,
+    "reviewContent": "Cena i Reeves podnoszą poprzeczkę. Jeszcze więcej wybuchów i świetnych efektów specjalnych!"
+  },
+  {
+    "_id": 3,
+    "movieName": "fajny film 3: timeender",
+    "userName": "sciFi_Geek",
+    "rating": 4,
+    "reviewContent": "Wątek podróży w czasie jest trochę zagmatwany, ale obsada wyciąga ten film na wyższy poziom."
+  },
+  {
+    "_id": 4,
+    "movieName": "fajny film endgame pt. 1: Alpha",
+    "userName": "movie_goer",
+    "rating": 5,
+    "reviewContent": "Początek końca w wielkim stylu. Scarlett Johansson idealnie dopełniła tę gwiazdorską ekipę."
+  },
+  {
+    "_id": 5,
+    "movieName": "fajny film endgame pt. 2: Omega",
+    "userName": "blockbuster_king",
+    "rating": 5,
+    "reviewContent": "Epickie zakończenie sagi Łukasza. Wizualne arcydzieło i godny finał historii."
+  },
+  {
+    "_id": 6,
+    "movieName": "super straszny film",
+    "userName": "horror_lover",
+    "rating": 3,
+    "reviewContent": "Kilka dobrych momentów trzymających w napięciu, ale Keanu bardziej pasuje mi do ról twardzieli niż do horroru."
+  },
+  {
+    "_id": 7,
+    "movieName": "wyspa epsteina: cala prawda",
+    "userName": "truth_seeker",
+    "rating": 4,
+    "reviewContent": "Wstrząsający i potrzebny dokument. Bardzo trudny w odbiorze, ale rzetelnie przedstawiający fakty."
+  }
+]
