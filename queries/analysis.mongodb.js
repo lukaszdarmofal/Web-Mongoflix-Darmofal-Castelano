@@ -31,3 +31,20 @@ db.reviews.aggregate([
     }
   }
 ]).forEach(doc => printjson(doc));
+
+
+//Total number of movies per director
+
+print("\n--- Total number of movies per director ---");
+
+db.movies.aggregate([
+  {
+    $group: {
+      _id: "$movieDirector",
+      totalMovies: { $sum: 1 }
+    }
+  },
+  {
+    $sort: { totalMovies: -1 }
+  }
+]).forEach(doc => printjson(doc));
