@@ -17,3 +17,6 @@ db.movies.aggregate([
     }
   }
 ]).forEach(doc => printjson(doc));
+
+
+//Calculate average rating of all movies
