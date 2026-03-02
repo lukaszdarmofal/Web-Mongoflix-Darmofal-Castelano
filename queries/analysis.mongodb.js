@@ -20,3 +20,14 @@ db.movies.aggregate([
 
 
 //Calculate average rating of all movies
+
+print("\n--- Average rating of all movies ---");
+
+db.reviews.aggregate([
+  {
+    $group: {
+      _id: null,
+      averageRating: { $avg: "$rating" }
+    }
+  }
+]).forEach(doc => printjson(doc));
