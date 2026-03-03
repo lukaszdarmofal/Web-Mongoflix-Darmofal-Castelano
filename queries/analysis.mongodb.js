@@ -1,5 +1,7 @@
 // Movies in the action category after 2020
 
+db = db.getSiblingDB("mongoflix")
+
 print("\n - Movies in the 'Action' category after 2020 -");
 
 db.movies.aggregate([
