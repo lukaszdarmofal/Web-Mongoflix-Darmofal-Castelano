@@ -23,7 +23,7 @@ db.movies.aggregate([
 
 //Calculate average rating of all movies
 
-print("\n--- Average rating of all movies ---");
+print("\n - Average rating of all movies -");
 
 db.reviews.aggregate([
   {
@@ -37,7 +37,7 @@ db.reviews.aggregate([
 
 //Total number of movies per director
 
-print("\n--- Total number of movies per director ---");
+print("\n - Total number of movies per director -");
 
 db.movies.aggregate([
   {
